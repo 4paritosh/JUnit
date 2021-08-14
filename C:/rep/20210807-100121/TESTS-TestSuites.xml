@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="3" hostname="PARITOSHs-MacBook-Air.local" id="0" name="AllTests" package="" skipped="0" tests="5" time="0.355" timestamp="2021-08-07T14:01:22">
+      <properties>
+          <property name="ant.library.dir" value="/Users/paritosh/ant/lib" />
+
+          <property name="env.TERM" value="xterm-256color" />
+
+          <property name="env.PWD" value="/Users/paritosh/Desktop/selenium workspace/JUnit2" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.specification.version" value="16" />
+
+          <property name="env.LANG" value="en_CA.UTF-8" />
+
+          <property name="ant.project.name" value="JunitProject54" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.class.path" value="/Users/paritosh/Desktop/selenium workspace/JUnit2/build:/Users/paritosh/Desktop/Selenium jars/SaxonLiaison.jar:/Users/paritosh/Desktop/Selenium jars/commons-io-2.6.jar:/Users/paritosh/Desktop/Selenium jars/dom4j-1.1.jar:/Users/paritosh/Desktop/Selenium jars/jcommander.jar:/Users/paritosh/Desktop/Selenium jars/junit-4.12.jar:/Users/paritosh/Desktop/Selenium jars/log4j-1.2.14.jar:/Users/paritosh/Desktop/Selenium jars/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/paritosh/Desktop/Selenium jars/poi-3.6-20091214.jar:/Users/paritosh/Desktop/Selenium jars/poi-ooxml-3.6-20091214.jar:/Users/paritosh/Desktop/Selenium jars/poi-ooxml-schemas-3.6-20091214.jar:/Users/paritosh/Desktop/Selenium jars/saxon-8.7.jar:/Users/paritosh/Desktop/Selenium jars/selenium-server-standalone-3.141.59.jar:/Users/paritosh/Desktop/Selenium jars/testng-6.14.2.jar:/Users/paritosh/Desktop/Selenium jars/xmlbeans-2.3.0.jar:/Users/paritosh/ant/lib/ant-launcher.jar:/Users/paritosh/ant/lib/ant.jar:/Users/paritosh/ant/lib/ant-junit.jar:/Users/paritosh/ant/lib/ant-junit4.jar" />
+
+          <property name="env.HOME" value="/Users/paritosh" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.JAVA_MAIN_CLASS_21156" value="org.apache.tools.ant.launch.Launcher" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="test.dest" value="/Users/paritosh/Desktop/selenium workspace/JUnit2/build" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="java.vm.specification.version" value="16" />
+
+          <property name="os.name" value="Mac OS X" />
+
+          <property name="test.src" value="/Users/paritosh/Desktop/selenium workspace/JUnit2/src" />
+
+          <property name="DSTAMP" value="20210807" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/paritosh/Desktop/selenium workspace/JUnit2/C:/rep/20210807-100121/TEST-AllTests.xml crashfile=/Users/paritosh/Desktop/selenium workspace/JUnit2/junitvmwatcher5348128326480936124.properties propsfile=/Users/paritosh/Desktop/selenium workspace/JUnit2/junit3647562435879441531.properties" />
+
+          <property name="test.reportsDir" value="C:/rep/20210807-100121" />
+
+          <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="/Users/paritosh" />
+
+          <property name="user.language" value="en" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2021-04-20" />
+
+          <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home" />
+
+          <property name="basedir" value="/Users/paritosh/Desktop/selenium workspace/JUnit2" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="ant.java.version" value="16" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="TODAY_MY" value="20210807-100121" />
+
+          <property name="TSTAMP" value="1001" />
+
+          <property name="env.XPC_SERVICE_NAME" value="0" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ant.file.type.JunitProject54" value="file" />
+
+          <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="java.runtime.version" value="16.0.1+9-24" />
+
+          <property name="env.TERM_PROGRAM_VERSION" value="440" />
+
+          <property name="user.name" value="paritosh" />
+
+          <property name="ant.file" value="/Users/paritosh/Desktop/selenium workspace/JUnit2/build.xml" />
+
+          <property name="env.PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paritosh/ant/bin:/Users/paritosh/maven/bin" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="ws.home" value="/Users/paritosh/Desktop/selenium workspace/JUnit2" />
+
+          <property name="os.version" value="11.5" />
+
+          <property name="env.LOGNAME" value="paritosh" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.XPC_FLAGS" value="0x0" />
+
+          <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="ant.project.invoked-targets" value="run" />
+
+          <property name="env.__CFBundleIdentifier" value="com.apple.Terminal" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.TERM_SESSION_ID" value="700EB22F-5BCD-496C-8A74-F9B29A3EF639" />
+
+          <property name="env.SHELL" value="/bin/zsh" />
+
+          <property name="env.SHLVL" value="1" />
+
+          <property name="ant.core.lib" value="/Users/paritosh/ant/lib/ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="java.io.tmpdir" value="/var/folders/5n/7yrsjw6n7gggsx2f61kjgr7m0000gn/T/" />
+
+          <property name="TODAY" value="August 7 2021" />
+
+          <property name="java.version" value="16.0.1" />
+
+          <property name="user.dir" value="/Users/paritosh/Desktop/selenium workspace/JUnit2" />
+
+          <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.HDUhywJgvO/Listeners" />
+
+          <property name="os.arch" value="x86_64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="/Users/paritosh/ant" />
+
+          <property name="ant.file.JunitProject54" value="/Users/paritosh/Desktop/selenium workspace/JUnit2/build.xml" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.11 compiled on July 10 2021" />
+
+          <property name="env.TMPDIR" value="/var/folders/5n/7yrsjw6n7gggsx2f61kjgr7m0000gn/T/" />
+
+          <property name="java.library.path" value="/Users/paritosh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version" value="16.0.1+9-24" />
+
+          <property name="ws.jars" value="/Users/paritosh/Desktop/Selenium jars" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+
+          <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+
+          <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+
+          <property name="env.USER" value="paritosh" />
+
+          <property name="java.class.version" value="60.0" />
+
+          <property name="ant.project.default-target" value="usage" />
+
+      </properties>
+
+      <testcase classname="Testing1" name="test" time="0.002" />
+
+      <testcase classname="Testing2" name="test1" time="0.001" />
+
+      <testcase classname="Testing2" name="test2" time="0.0" />
+
+      <testcase classname="Testing3" name="test6" time="0.007">
+          <failure message="expected:&lt;abc[1]&gt; but was:&lt;abc[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;abc[1]&gt; but was:&lt;abc[]&gt;
+	at Testing3.test6(Testing3.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+          <failure message="Values should be different. Actual: abc" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Values should be different. Actual: abc
+	at Testing3.test6(Testing3.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="Testing3" name="test7" time="0.001">
+          <failure message="expected:&lt;abc[1]&gt; but was:&lt;abc[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;abc[1]&gt; but was:&lt;abc[]&gt;
+	at Testing3.test7(Testing3.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[beforeclass
+before
+test
+after
+after class
+test1
+test2
+before
+first assersion failed
+after
+second assertions failed
+last
+before
+after
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
